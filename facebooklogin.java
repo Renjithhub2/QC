@@ -23,10 +23,10 @@ public class facebooklogin {
 		driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("qwerty12345");
 		driver.findElement(By.xpath("//*[@id=\"u_0_5_62\"]")).click();
 		}
-//	@After
-//		public void exitt()
-//		{
-//		driver.quit();
-//		}	
+	@After
+		public void exitt()
+		{
+		driver.quit();
+		}	
 
 }
